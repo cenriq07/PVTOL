@@ -1,0 +1,90 @@
+{
+    "frameEnd": "*/",
+    "frameStart": "/*",
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Roll",
+                    "units": "°",
+                    "value": "%1",
+                    "widget": ""
+                },
+                {
+                    "alarm": 35,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 35,
+                    "min": 0,
+                    "title": "Altitude",
+                    "units": "cm",
+                    "value": "%2",
+                    "widget": "bar"
+                }
+            ],
+            "title": "Posicion",
+            "widget": ""
+        },
+        {
+            "datasets": [
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Kp",
+                    "units": "e-3",
+                    "value": "%3",
+                    "widget": ""
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Ki",
+                    "units": "e-3",
+                    "value": "%4",
+                    "widget": ""
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Kd",
+                    "units": "e-3",
+                    "value": "%5",
+                    "widget": ""
+                }
+            ],
+            "title": "PID",
+            "widget": ""
+        }
+    ],
+    "separator": ",",
+    "title": "PVTOL"
+}
