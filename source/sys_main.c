@@ -54,8 +54,17 @@
 #include "stdio.h"
 #include "string.h"
 #include "math.h"
-//hola kike
 //Hola ivon :)
+
+// Mientras tu escribes una cancion...
+/*
+ * int i=0;
+ * for(i=0; i<0xFFFFFFF; i++)
+ * {
+ *      printf("Me caes bien");
+ * }
+ *
+ * */
 #include "MPU9250.h"
 #include "HCSR04.h"
 #include "PWM.h"
