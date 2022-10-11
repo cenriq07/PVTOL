@@ -231,6 +231,9 @@ int main(void)
 /* IVON CODE END*/
 
 /* KIKE CODE BEGIN*/
+
+// Hola como estás?
+
 /* KIKE CODE END*/
 
 /*-------------------------- TAREAS ------------------------------*/
