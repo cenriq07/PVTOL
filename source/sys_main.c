@@ -222,7 +222,15 @@ int main(void)
 }
 
 
+
 /* USER CODE BEGIN (4) */
+
+/* IVON CODE BEGIN*/
+
+/* IVON CODE END*/
+
+/* KIKE CODE BEGIN*/
+/* KIKE CODE END*/
 
 /*-------------------------- TAREAS ------------------------------*/
 void vSensors(void *pvParameters)
