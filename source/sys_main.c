@@ -54,7 +54,7 @@
 #include "stdio.h"
 #include "string.h"
 #include "math.h"
-//Hola ivon :)
+//Hola ivon :) muhahahahahaha
 
 // Mientras tu escribes una cancion...
 /*
@@ -65,6 +65,18 @@
  * }
  *
  * */
+/*
+ *
+ *
+ *        ----------------
+ *              ---
+ *              ---
+ *              ---
+ *              ---
+ *          -------------
+ *
+ *
+ * /
 #include "MPU9250.h"
 #include "HCSR04.h"
 #include "PWM.h"
