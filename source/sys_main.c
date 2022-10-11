@@ -226,7 +226,8 @@ int main(void)
 /* USER CODE BEGIN (4) */
 
 /* IVON CODE BEGIN*/
-
+// me caes mal kike
+// eres bien grosero
 /* IVON CODE END*/
 
 /* KIKE CODE BEGIN*/
