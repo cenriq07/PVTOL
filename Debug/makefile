@@ -4,7 +4,7 @@
 
 SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS
+CG_TOOL_ROOT := C:/Users/ivon/Documents/Programas/Code composer/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -171,15 +171,15 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 PVTOL_04x.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: Arm Linker'
-	"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl" -mv7R4 --code_state=32 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"PVTOL_04x.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/lib" -i"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="PVTOL_04x_linkInfo.xml" --rom_model --be32 -o "PVTOL_04x.out" $(ORDERED_OBJS)
+	"C:/Users/ivon/Documents/Programas/Code composer/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armcl" -mv7R4 --code_state=32 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"PVTOL_04x.map" --heap_size=0x800 --stack_size=0x800 -i"C:/Users/ivon/Documents/Programas/Code composer/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/lib" -i"C:/Users/ivon/Documents/Programas/Code composer/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="PVTOL_04x_linkInfo.xml" --rom_model --be32 -o "PVTOL_04x.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 PVTOL_04x.hex: $(EXE_OUTPUTS)
-	@echo 'Building secondary target: "$@"'
+	@echo 'Building files: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo 'Invoking: Arm Hex Utility'
-	"C:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armhex" --diag_wrap=off -o "PVTOL_04x.hex" $(EXE_OUTPUTS__QUOTED)
-	@echo 'Finished building secondary target: "$@"'
+	"C:/Users/ivon/Documents/Programas/Code composer/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/bin/armhex"  -o "PVTOL_04x.hex" $(EXE_OUTPUTS__QUOTED)
+	@echo 'Finished building: $(strip $(EXE_OUTPUTS__QUOTED))'
 	@echo ' '
 
 # Other Targets
