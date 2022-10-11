@@ -64,6 +64,14 @@
  *      printf("Me caes bien");
  * }
  *
+ *#define BLDC_1_PWM  pwm0    // HET 0
+#define BLDC_2_PWM  pwm1    // HET 2
+#define DC_MAX      1000
+#define DC_MIN      530
+int dcBASE = 545;
+int offset1 = 0;
+int offset2 = 0;
+ *
  * */
 /*
  *
